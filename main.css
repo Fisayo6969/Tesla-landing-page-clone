@@ -574,10 +574,14 @@ footer ul{
     text-align: center;
     justify-content: center;
     flex-direction: row;
+    cursor: pointer;
     flex-wrap: wrap;
     display: flex;
     gap: 30px;
-    font-weight: 700;
+    font-weight: 800;
     padding-bottom: 3em;
+}
+footer ul:hover{
+    color: rgb(63, 63, 63);
 }
 /*  */
