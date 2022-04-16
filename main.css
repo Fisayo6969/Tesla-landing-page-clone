@@ -36,7 +36,11 @@ a{
     background-color: rgb(196, 196, 196);
     border-radius: 1em;
     padding: 2vh;
-
+}
+.bar:hover{
+    background-color: rgb(196, 196, 196);
+    border-radius: 1em;
+    padding: 2vh;
 }
  
 @media(max-width:1000px){
@@ -49,12 +53,15 @@ a{
 @media(max-width:1130px){
 .bar{
    display: block;
-    width: 25px;
+   font-size: larger;
+    font-weight: 700;
+    color: rgb(131, 131, 131);
+    /* width: 25px;
     height: 3px;
-    border-radius: 5px;
+    border-radius: 5px; */
    -webkit-transition: all 0.3 ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
 }
 .bar2{
     display: block;
